@@ -1,0 +1,47 @@
+#
+# system.prop for s7
+#
+
+#ro.product.model=Ideos S7
+#ro.product.brand=Huawei
+#ro.product.name=S7_HW_PT
+#ro.product.device=qsd8k_s7
+#ro.product.manufacturer=HUAWEI
+#ro.product.locale.language=pt
+#ro.product.locale.region=PT
+#ro.board.platform=qsd8k
+#ro.build.product=qsd8k_s7
+#ro.product.board=s7
+#ro.product.cpu.abi=armeabi-v7a
+#ro.product.cpu.abi2=armeabi
+
+# RIL specific configuration.
+rild.libpath=/system/lib/libril-qc-1.so 
+rild.libargs=-d /dev/smd0
+persist.rild.nitz_plmn=
+persist.rild.nitz_long_ons_0=
+persist.rild.nitz_long_ons_1=
+persist.rild.nitz_long_ons_2=
+persist.rild.nitz_long_ons_3=
+persist.rild.nitz_short_ons_0=
+persist.rild.nitz_short_ons_1=
+persist.rild.nitz_short_ons_2=
+persist.rild.nitz_short_ons_3=
+DEVICE_PROVISIONED=1
+
+#ro.config.hw_new_wifitopdp=1 
+#ro.config.hw_data_service_on=0 
+#ro.config.hw_uaprof=http://wap1.huawei.com/uaprof/HuaweiS7v100WCDMANormal.xml 
+#ro.config.uaprofile2g=http://wap1.huawei.com/uaprof/HuaweiS7v100GPRSNormal.xml 
+#ro.config.uaprofile3g=http://wap1.huawei.com/uaprof/HuaweiS7v100WCDMANormal.xml
+
+ro.sf.lcd_density = 160 
+
+# The OpenGL ES API level that is natively supported by this device.
+ro.opengles.version=131072
+
+#tweaks
+debug.sf.hw=1
+dalvik.vm.heapsize=24m
+#dalvik.vm.execution-mode=int:jit
+
